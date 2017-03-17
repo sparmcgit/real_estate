@@ -1,0 +1,14 @@
+{
+	"author": "Martin Häggström",
+	"year": "2017",
+	"tax_calculation": {
+		"description": "Swedish tax calculation for rental income abroad.",
+		"deduction": {
+			"standard_deduction": "40000",
+			"rental_deduction": "0.2"
+		},
+		"tax_rate_sweden": "0.3",
+		"tax_rate_thailand": "0.05",
+		"calculation": "tax=(rental-standard_deduction-(rental*rental_deduction)-(rental*tax_rate_abroad))*tax_rate_sweden"
+	}
+}
